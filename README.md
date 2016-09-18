@@ -6,4 +6,4 @@ A webscraper console application using jsoup API
 
 -Gets input from user through the console
 
--Retrieves information such as number of people registered in certain sections (e.g. waitlists)
+-Retrieves information such as number of people registered in certain sections for a given course (e.g. waitlists)
