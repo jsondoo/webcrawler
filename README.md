@@ -7,3 +7,15 @@
 </ul>
 
 #Images
+
+Example of using the webscraper to get information about the waitlists for the course CPSC310:
+
+![](https://cloud.githubusercontent.com/assets/21695878/18620699/78c57ede-7dcc-11e6-9ae1-1a695b6cc119.JPG)
+
+
+If the section information is unavailable, it displays "Seat Summary Available". This usually means that the course is most likely part of a standard timetable.
+
+![](https://cloud.githubusercontent.com/assets/21695878/18620700/7b76c598-7dcc-11e6-8168-4ed7be8154a0.JPG)
+
+#License
+MIT © jsondoo
