@@ -7,7 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Uses jsoup to retrieve info from websites
+/** Class that contains the functionality for retrieve info from websites
+ *  Uses the jsoup library for parsing HTML
  */
 public class WebScraper {
     private static WebScraper instance;

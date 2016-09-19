@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * Keeps track of all courses
+ * Keeps track of all the courses
  */
 public class CourseManager implements Iterable<Course> {
     private Set<Course> courses;

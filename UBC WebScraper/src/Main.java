@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Set;
 
 public class Main {
     private static SectionType selectedSectionType;
@@ -104,7 +103,7 @@ public class Main {
         System.out.println("Retrieving sections...");
         CourseManager cManager = CourseManager.getInstance();
         //check CourseManager to see if the course already exists and select the course if it does
-        // otherwise create a new course
+        //otherwise create a new course
         if(cManager.containsCourseWithName(courseName)){
             cManager.selectCourseWithName(courseName);
         }
@@ -115,6 +114,11 @@ public class Main {
         }
     }
 
+    /**
+     * Check whether or not inputted course name is valid
+     * @param courseName
+     * @return true if courseName is a valid name for a course
+     */
     private static boolean isValid(String courseName){
         return courseName.matches("[A-Z]{4}[0-9]{3}");
     }

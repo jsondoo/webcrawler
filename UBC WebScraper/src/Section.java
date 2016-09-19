@@ -17,7 +17,6 @@ public class Section {
         sectionType = webScraper.getSectionType(url);
     }
 
-
     public String getURL(){
         return url;
     }
