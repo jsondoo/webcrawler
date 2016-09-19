@@ -10,17 +10,21 @@
 
 #Images
 
-Example of using the webscraper to get information about the waitlists for the course CPSC310:
+
+When the application is ran, the user is first prompted an input for a course name and a course section type. The application connects to the UBC course webpage corresponding to the given course and parses the source code for information. 
+
+Below is an example of using the webscraper to get information about the waitlists for the course CPSC310:
 
 ![](https://cloud.githubusercontent.com/assets/21695878/18620699/78c57ede-7dcc-11e6-9ae1-1a695b6cc119.JPG)
 
+Once the information is displayed, the user can choose to either end the application, or choose a different course or a section type.
 
 If the section information is unavailable, it displays "Seat Summary Available". This usually means that the course is part of the standard timetable so there is no seat summary to be displayed.
 
 ![](https://cloud.githubusercontent.com/assets/21695878/18620700/7b76c598-7dcc-11e6-8168-4ed7be8154a0.JPG)
 
 
-It may take a few seconds for the program to retrieve all the sections. However, once the information is retrieved for a course, the data is locally stored so that if a course or a section is revisited, the information retrieving is done instantly. There is no GUI yet because my GUI making skills are terrible.
+It may take a few seconds for the application to retrieve all the sections. However, once the information is retrieved for a course, the data is locally stored so that if a course or a section is revisited, the information retrieving is done instantly. 
 
 #License
 MIT © jsondoo
