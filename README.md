@@ -17,5 +17,8 @@ If the section information is unavailable, it displays "Seat Summary Available".
 
 ![](https://cloud.githubusercontent.com/assets/21695878/18620700/7b76c598-7dcc-11e6-8168-4ed7be8154a0.JPG)
 
+
+It may take a few seconds for the program to retrieve all the sections. However, once the information is retrieved for a course, the data is locally stored so that if a course or a section is revisited, the information retrieving is done instantly. There is no GUI yet because my GUI making skills are terrible.
+
 #License
 MIT © jsondoo
