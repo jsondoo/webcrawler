@@ -1,5 +1,7 @@
-# UBC-Webscraper: 
+# UBC-Webscraper
 <strong>A webscraper console application using jsoup 1.9.2 API</strong>
+
+<h4><i>Features</i></h4>
 <ul>
     <li>Uses jsoup to parse the source code of websites of UBC domain</li>
     <li>Gets input from user through the console</li>
