@@ -1,16 +1,14 @@
-# UBC-Webscraper
-<strong>A webscraper console application using jsoup 1.9.2 API</strong>
+# UBC Webscraper
+A webscraper console application using jsoup 1.9.2 API
 
-<h4><i>Features</i></h4>
+<h4>Features</h4>
 <ul>
     <li>Uses jsoup to parse the source code of websites of UBC domain</li>
     <li>Gets input from user through the console</li>
     <li>Retrieves information such as number of people registered in certain sections for a given course (e.g. waitlists)</li>
 </ul>
 
-#Images
-
-
+# Images
 When the application is ran, the user is first prompted an input for a course name and a course section type. The application connects to the UBC course webpage corresponding to the given course and parses the source code for information. 
 
 Below is an example of using the webscraper to get information about the waitlists for the course CPSC310:
@@ -23,8 +21,5 @@ If the section information is unavailable, it displays "Seat Summary Available".
 
 ![](https://cloud.githubusercontent.com/assets/21695878/18620700/7b76c598-7dcc-11e6-8168-4ed7be8154a0.JPG)
 
-
-It may take a few seconds for the application to retrieve all the sections. However, once the information is retrieved for a course, the data is cached so that if a course or a section is revisited, the information retrieving is done instantly. 
-
-#License
+# License
 MIT © jsondoo
