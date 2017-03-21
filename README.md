@@ -1,5 +1,6 @@
-# UBC Webscraper
-A webscraper console application using jsoup 1.9.2 API
+# UBCrawl
+Retrieve all the information you need about UBC courses, sections, and waitlists!
+Uses jsoup 1.9.2 API to crawl the web
 
 <h4>Features</h4>
 <ul>
